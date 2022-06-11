@@ -1,6 +1,11 @@
 import random
 import string
 
+#function for user inputs
+#functoin to take these inputs
+#main function
+#comments
+
 number = string.digits
 upper = string.ascii_uppercase 
 lower = string.ascii_lowercase
@@ -26,5 +31,7 @@ def password(size):
     for i in range(0,size):     
         print(random.choice(result), end='')
 
+
 x = input("Enter the size of the password (Number): ")
 password(int(x))
+
